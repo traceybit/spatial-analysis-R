@@ -263,6 +263,8 @@ Save the spatial object to disk using `write_sf()` and specifying the filename. 
 
 ```{r plot}
 write_sf(ak_pop_sf, "shapefiles/ak_regions_population.shp", delete_layer = TRUE)
+
+# write_sf(ak_mgmt, "shapefiles/ak_mgmt.shp")
 ```
 
 # Visualize with ggplot
